@@ -1,0 +1,7 @@
+before_install
+install: true
+before_script
+script: bundle exec thor build
+after_success
+after_failure
+after_script
